@@ -1,7 +1,5 @@
 
-    <script>
-      // Plant data structure
-      let plants = [
+    let plants = [
         {
           id: 1,
           name: "light yagami",
@@ -530,4 +528,4 @@
       updateCurrentPlant();
       setView("grid"); // Start with grid view
       setInterval(updateCountdown, 1000);
-    </script>
+
